@@ -1,0 +1,17 @@
+{
+  "name": "moyu-card-club",
+  "version": "2.0.0",
+  "private": true,
+  "type": "module",
+  "description": "摸鱼牌社：零运行时依赖的单机斗地主",
+  "scripts": {
+    "start": "node scripts/serve.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "check": "node --check game.js",
+    "format": "prettier --write index.html styles.css game.js scripts/*.mjs tests/*.mjs README.md package.json"
+  },
+  "devDependencies": {
+    "jsdom": "^29.1.1",
+    "prettier": "^3.9.10"
+  }
+}
